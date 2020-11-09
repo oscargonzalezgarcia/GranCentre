@@ -33,19 +33,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if(v.getId()==R.id.btnNgci)
         {
-
+            Intent intent = new Intent(this,Activity_Business.class);
         }
         else if(v.getId()==R.id.btnRest)
         {
-
+            Intent intent = new Intent(this,Activity_Restaurant.class);
         }
         else if(v.getId()==R.id.btnPrkng)
         {
-
+            Intent intent = new Intent(this,Activity_Parkings.class);
         }
         else if(v.getId()==R.id.btnMvis)
         {
-
+            Intent intent = new Intent(this,Activity_Movies.class);
         }
 
     }
