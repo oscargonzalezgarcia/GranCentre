@@ -17,11 +17,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/business"
-        android:layout_marginRight="20dp"/>
+        android:layout_marginRight="20dp"
+        android:id="@+id/btnNgci"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/restaurants"/>
+        android:background="@drawable/restaurants"
+        android:id="@+id/btnRest"/>
     </LinearLayout>
 
     <LinearLayout
@@ -32,11 +34,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/parking"
-        android:layout_marginRight="20dp"/>
+        android:layout_marginRight="20dp"
+        android:id="@+id/btnPrkng"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/movies"/>
+        android:background="@drawable/movies"
+        android:id="@+id/btnMvis"/>
     </LinearLayout>
 
 </LinearLayout>
