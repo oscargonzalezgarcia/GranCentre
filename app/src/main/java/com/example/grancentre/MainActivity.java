@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.android.material.snackbar.Snackbar;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     @Override
@@ -30,23 +32,29 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
+        Intent intent;
 
         if(v.getId()==R.id.btnNgci)
         {
-            Intent intent = new Intent(this,Activity_Business.class);
+            intent = new Intent(this,Activity_Business.class);
+            startActivity(intent);
         }
         else if(v.getId()==R.id.btnRest)
         {
-            Intent intent = new Intent(this,Activity_Restaurant.class);
+            intent = new Intent(this,Activity_Restaurant.class);
+            startActivity(intent);
         }
         else if(v.getId()==R.id.btnPrkng)
         {
-            Intent intent = new Intent(this,Activity_Parkings.class);
+            intent = new Intent(this,Activity_Parkings.class);
+            startActivity(intent);
         }
         else if(v.getId()==R.id.btnMvis)
         {
-            Intent intent = new Intent(this,Activity_Movies.class);
+            intent = new Intent(this,Activity_Movies.class);
+            startActivity(intent);
         }
+
 
     }
 }
