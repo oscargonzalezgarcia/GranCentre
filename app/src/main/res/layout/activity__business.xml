@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.tabs.TabLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:orientation="vertical"
     tools:context=".Activity_Business">
 
-    <com.google.android.material.tabs.TabItem
-        android:layout_width="wrap_content"
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Perruqueries"
-        />
+        android:background="@color/colorPrimaryDark"
+        app:tabSelectedTextColor="@color/colorSelectedTab"
+        app:tabIndicator="@color/colorTabIndicator"
+        app:tabTextColor="@color/colorTabText">
+    </com.google.android.material.tabs.TabLayout>
+    
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <com.google.android.material.tabs.TabItem
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tallers"
-        />
-    <com.google.android.material.tabs.TabItem
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Botigues"
-        />
+    </androidx.viewpager.widget.ViewPager>
 
-</com.google.android.material.tabs.TabLayout>
+</LinearLayout>
