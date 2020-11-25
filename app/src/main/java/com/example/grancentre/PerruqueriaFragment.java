@@ -39,9 +39,13 @@ public class PerruqueriaFragment extends Fragment implements View.OnClickListene
     @Override
     public void onAttach(@NonNull Context context) {
         super.onAttach(context);
-        //inicialitzar listener
 
-        listener = (OnClickPerruqueriaListener) context;
+            if (context instanceof OnClickPerruqueriaListener){
+                listener= (OnClickPerruqueriaListener) context;
+            } else {
+                throw new RuntimeException(context.toString() + "ha d'implementar OnClickPerruqueriaListener");
+            }
+
     }
 
     /**
