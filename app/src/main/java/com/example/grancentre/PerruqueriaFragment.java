@@ -94,7 +94,8 @@ public class PerruqueriaFragment extends Fragment implements View.OnClickListene
         listener.onClickPerruqueria(v);
 
 
-        //TODO: comentar
+        //comentar i pasar al onclicPErruqueria
+        /*
         if(v.getId()==R.id.iv1)
         {
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://bellesaessencial.com/"));
@@ -111,6 +112,8 @@ public class PerruqueriaFragment extends Fragment implements View.OnClickListene
             mapIntent.setPackage("com.google.android.apps.maps");
             startActivity(mapIntent);
         }
+
+         */
     }
 
     public interface OnClickPerruqueriaListener {
