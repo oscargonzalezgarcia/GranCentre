@@ -1,9 +1,11 @@
 package com.example.grancentre;
 
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -28,8 +30,18 @@ public class PerruqueriaFragment extends Fragment implements View.OnClickListene
     private String mParam1;
     private String mParam2;
 
+    OnClickPerruqueriaListener listener ;
+
     public PerruqueriaFragment() {
         // Required empty public constructor
+    }
+
+    @Override
+    public void onAttach(@NonNull Context context) {
+        super.onAttach(context);
+        //inicialitzar listener
+
+        listener = (OnClickPerruqueriaListener) context;
     }
 
     /**
@@ -57,23 +69,32 @@ public class PerruqueriaFragment extends Fragment implements View.OnClickListene
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
-        ImageView imageView1 = (ImageView) getView().findViewById(R.id.iv1);
-        imageView1.setOnClickListener(this);
-        ImageView imageView2 = (ImageView) getView().findViewById(R.id.iv2);
-        imageView2.setOnClickListener(this);
-        ImageView imageView3 = (ImageView) getView().findViewById(R.id.iv3);
-        imageView3.setOnClickListener(this);
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_perruqueria, container, false);
+        View v= inflater.inflate(R.layout.fragment_perruqueria, container, false);
+
+        ImageView imageView1 = (ImageView) v.findViewById(R.id.iv1);
+        imageView1.setOnClickListener(this);
+        ImageView imageView2 = (ImageView) v.findViewById(R.id.iv2);
+        imageView2.setOnClickListener(this);
+        ImageView imageView3 = (ImageView) v.findViewById(R.id.iv3);
+        imageView3.setOnClickListener(this);
+
+        return v;
     }
 
     @Override
     public void onClick(View v) {
+
+        listener.onClickPerruqueria(v);
+
+
+        //TODO: comentar
         if(v.getId()==R.id.iv1)
         {
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://bellesaessencial.com/"));
@@ -90,5 +111,9 @@ public class PerruqueriaFragment extends Fragment implements View.OnClickListene
             mapIntent.setPackage("com.google.android.apps.maps");
             startActivity(mapIntent);
         }
+    }
+
+    public interface OnClickPerruqueriaListener {
+        public void onClickPerruqueria (View v);
     }
 }
