@@ -1,5 +1,7 @@
 package com.example.grancentre;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,13 +9,15 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageView;
 
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link PerruqueriaFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class PerruqueriaFragment extends Fragment {
+public class PerruqueriaFragment extends Fragment implements View.OnClickListener{
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -53,6 +57,12 @@ public class PerruqueriaFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+        ImageView imageView1 = (ImageView) getView().findViewById(R.id.iv1);
+        imageView1.setOnClickListener(this);
+        ImageView imageView2 = (ImageView) getView().findViewById(R.id.iv2);
+        imageView2.setOnClickListener(this);
+        ImageView imageView3 = (ImageView) getView().findViewById(R.id.iv3);
+        imageView3.setOnClickListener(this);
     }
 
     @Override
@@ -60,5 +70,25 @@ public class PerruqueriaFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_perruqueria, container, false);
+    }
+
+    @Override
+    public void onClick(View v) {
+        if(v.getId()==R.id.iv1)
+        {
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://bellesaessencial.com/"));
+            startActivity(intent);
+        }
+        else if(v.getId()==R.id.iv2){
+            //truquem per telefon
+            Intent intent2 = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:938708807"));
+            startActivity(intent2);}
+        else
+        {
+            Uri gmmIntentUri = Uri.parse("geo:41.609627, 2.287949");
+            Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+            mapIntent.setPackage("com.google.android.apps.maps");
+            startActivity(mapIntent);
+        }
     }
 }

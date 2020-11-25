@@ -25,8 +25,8 @@ public class Activity_Business extends AppCompatActivity {
 
     private void setUpViewPagerAdapter() {
         viewPagerAdapter.addFragment(new PerruqueriaFragment(), "Perruqueries");
-        viewPagerAdapter.addFragment(new PerruqueriaFragment(), "Tallers");
-        viewPagerAdapter.addFragment(new PerruqueriaFragment(), "Botigues");
+        viewPagerAdapter.addFragment(new TallerFragment(), "Tallers");
+        viewPagerAdapter.addFragment(new BotigaFragment(), "Botigues");
         viewPager.setAdapter(viewPagerAdapter);
 
         tabLayout.setupWithViewPager(viewPager);
