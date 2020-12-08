@@ -47,18 +47,20 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="BELLESA ESSENCIAL"
+                        android:layout_gravity="center"
                         android:textSize="15sp"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:text="23-25, Carrer de Corró, 08401 Granollers, Barcelona "/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:layout_gravity="right">
+                        android:layout_gravity="center">
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -75,6 +77,12 @@
                         android:src="@drawable/location"
                         android:id="@+id/iv3"/>
                     </LinearLayout>
+                    <androidx.appcompat.widget.AppCompatRatingBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:layout_gravity="center">
+                    </androidx.appcompat.widget.AppCompatRatingBar>
                 </LinearLayout>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -113,18 +121,20 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="CARME ESTILISTES"
+                        android:layout_gravity="center"
                         android:textSize="15sp"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:textAlignment="center"
                         android:text="Carrer de Josep Torras I Bages, 35, 08401 Granollers, Barcelona "/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:layout_gravity="right">
+                        android:layout_gravity="center">
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -141,6 +151,12 @@
                             android:src="@drawable/location"
                             android:id="@+id/iv23"/>
                     </LinearLayout>
+                    <androidx.appcompat.widget.AppCompatRatingBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:layout_gravity="center">
+                    </androidx.appcompat.widget.AppCompatRatingBar>
                 </LinearLayout>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -179,19 +195,21 @@
                         android:layout_marginTop="15dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:text="CAROL BRUGUERA"
                         android:textSize="15sp"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:text="Plaça Lluís Perpinyà, 4, 08400 Granollers, Barcelona "/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:layout_gravity="right">
+                        android:layout_gravity="center">
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -208,6 +226,12 @@
                             android:src="@drawable/location"
                             android:id="@+id/iv33"/>
                     </LinearLayout>
+                    <androidx.appcompat.widget.AppCompatRatingBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:layout_gravity="center">
+                    </androidx.appcompat.widget.AppCompatRatingBar>
                 </LinearLayout>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
