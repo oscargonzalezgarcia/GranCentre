@@ -1,20 +1,25 @@
 package com.example.grancentre;
 
+import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageView;
 
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link VegetariaFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class VegetariaFragment extends Fragment {
-
+public class VegetariaFragment extends Fragment implements View.OnClickListener{
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -24,8 +29,20 @@ public class VegetariaFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
+    VegetariaFragment.onClickVegetariaListener listener ;
+
     public VegetariaFragment() {
         // Required empty public constructor
+    }
+
+    @Override
+    public void onAttach(@NonNull Context context) {
+        super.onAttach(context);
+        if (context instanceof VegetariaFragment.onClickVegetariaListener){
+            listener= (VegetariaFragment.onClickVegetariaListener) context;
+        } else {
+            throw new RuntimeException(context.toString() + "ha d'implementar OnClickMariscListener");
+        }
     }
 
     /**
@@ -34,7 +51,7 @@ public class VegetariaFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment VegetariaFragment.
+     * @return A new instance of fragment ItaliaFragment.
      */
     // TODO: Rename and change types and number of parameters
     public static VegetariaFragment newInstance(String param1, String param2) {
@@ -59,6 +76,37 @@ public class VegetariaFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_vegetaria, container, false);
+        View v= inflater.inflate(R.layout.fragment_vegetaria, container, false);
+
+        ImageView imageView1 = (ImageView) v.findViewById(R.id.web1);
+        imageView1.setOnClickListener(this);
+        ImageView imageView2 = (ImageView) v.findViewById(R.id.call1);
+        imageView2.setOnClickListener(this);
+        ImageView imageView3 = (ImageView) v.findViewById(R.id.ubi1);
+        imageView3.setOnClickListener(this);
+
+        ImageView imageView21 = (ImageView) v.findViewById(R.id.web2);
+        imageView21.setOnClickListener(this);
+        ImageView imageView22 = (ImageView) v.findViewById(R.id.call2);
+        imageView22.setOnClickListener(this);
+        ImageView imageView23 = (ImageView) v.findViewById(R.id.ubi2);
+        imageView23.setOnClickListener(this);
+
+        ImageView imageView31 = (ImageView) v.findViewById(R.id.web3);
+        imageView31.setOnClickListener(this);
+        ImageView imageView32 = (ImageView) v.findViewById(R.id.call3);
+        imageView32.setOnClickListener(this);
+        ImageView imageView33 = (ImageView) v.findViewById(R.id.ubi3);
+        imageView33.setOnClickListener(this);
+
+        return v;
+    }
+
+    @Override
+    public void onClick(View v) {
+        listener.onClickVegetaria(v);
+    }
+    public interface onClickVegetariaListener {
+        void onClickVegetaria(View v);
     }
 }
