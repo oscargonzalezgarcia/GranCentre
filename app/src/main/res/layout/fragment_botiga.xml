@@ -32,6 +32,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:layout_marginRight="10dp"
+                    android:layout_gravity="center"
                     android:layout_marginTop="10dp"
                     android:src="@drawable/b3"/>
 
@@ -46,19 +47,21 @@
                         android:layout_marginTop="15dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:text="AGUDO Z"
                         android:textSize="15sp"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:text="Carrer de Santa Anna, 21, 08401 Granollers, Barcelona"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:layout_gravity="right">
+                        android:layout_gravity="center">
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -75,6 +78,12 @@
                             android:src="@drawable/location"
                             android:id="@+id/iv3"/>
                     </LinearLayout>
+                    <androidx.appcompat.widget.AppCompatRatingBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:layout_gravity="center">
+                    </androidx.appcompat.widget.AppCompatRatingBar>
                 </LinearLayout>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -98,6 +107,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:layout_marginRight="10dp"
+                    android:layout_gravity="center"
                     android:layout_marginTop="10dp"
                     android:src="@drawable/b2"/>
 
@@ -112,19 +122,21 @@
                         android:layout_marginTop="15dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:text="BARBANY"
                         android:textSize="15sp"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:text="Carrer Anselm Clavé, 44, 08401 Granollers, Barcelona"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:layout_gravity="right">
+                        android:layout_gravity="center">
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -141,6 +153,12 @@
                             android:src="@drawable/location"
                             android:id="@+id/iv23"/>
                     </LinearLayout>
+                    <androidx.appcompat.widget.AppCompatRatingBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:layout_gravity="center">
+                    </androidx.appcompat.widget.AppCompatRatingBar>
                 </LinearLayout>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -179,19 +197,21 @@
                         android:layout_marginTop="15dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:text="INSITU SKATE SHOP GALLERY"
                         android:textSize="15sp"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:text="Carrer del Lliri, 11, 08401 Granollers, Barcelona"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:layout_gravity="right">
+                        android:layout_gravity="center">
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -208,6 +228,12 @@
                             android:src="@drawable/location"
                             android:id="@+id/iv33"/>
                     </LinearLayout>
+                    <androidx.appcompat.widget.AppCompatRatingBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:numStars="5"
+                        android:layout_gravity="center">
+                    </androidx.appcompat.widget.AppCompatRatingBar>
                 </LinearLayout>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
