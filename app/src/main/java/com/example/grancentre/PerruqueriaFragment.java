@@ -89,6 +89,20 @@ public class PerruqueriaFragment extends Fragment implements View.OnClickListene
         ImageView imageView3 = (ImageView) v.findViewById(R.id.iv3);
         imageView3.setOnClickListener(this);
 
+        ImageView imageView21 = (ImageView) v.findViewById(R.id.iv21);
+        imageView21.setOnClickListener(this);
+        ImageView imageView22 = (ImageView) v.findViewById(R.id.iv22);
+        imageView22.setOnClickListener(this);
+        ImageView imageView23 = (ImageView) v.findViewById(R.id.iv23);
+        imageView23.setOnClickListener(this);
+
+        ImageView imageView31 = (ImageView) v.findViewById(R.id.iv31);
+        imageView31.setOnClickListener(this);
+        ImageView imageView32 = (ImageView) v.findViewById(R.id.iv32);
+        imageView32.setOnClickListener(this);
+        ImageView imageView33 = (ImageView) v.findViewById(R.id.iv33);
+        imageView33.setOnClickListener(this);
+
         return v;
     }
 
@@ -96,28 +110,6 @@ public class PerruqueriaFragment extends Fragment implements View.OnClickListene
     public void onClick(View v) {
 
         listener.onClickPerruqueria(v);
-
-
-        //comentar i pasar al onclicPErruqueria
-        /*
-        if(v.getId()==R.id.iv1)
-        {
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://bellesaessencial.com/"));
-            startActivity(intent);
-        }
-        else if(v.getId()==R.id.iv2){
-            //truquem per telefon
-            Intent intent2 = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:938708807"));
-            startActivity(intent2);}
-        else
-        {
-            Uri gmmIntentUri = Uri.parse("geo:41.609627, 2.287949");
-            Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-            mapIntent.setPackage("com.google.android.apps.maps");
-            startActivity(mapIntent);
-        }
-
-         */
     }
 
     public interface OnClickPerruqueriaListener {
