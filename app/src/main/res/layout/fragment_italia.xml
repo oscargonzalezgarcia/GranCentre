@@ -41,12 +41,19 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Carrer de Joan Prim, 42, Granollers, Barcelona"/>
+                        android:text="Carrer de Joan Prim, 42, Granollers, Barcelona" />
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:layout_gravity="right">
+                        android:layout_gravity="right"
+                        android:gravity="center">
+                        <androidx.appcompat.widget.AppCompatRatingBar
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:numStars="5"
+                            android:layout_gravity="center">
+                        </androidx.appcompat.widget.AppCompatRatingBar>
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -104,7 +111,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:layout_gravity="right">
+                        android:layout_gravity="right"
+                        android:gravity="center">
+                        <androidx.appcompat.widget.AppCompatRatingBar
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:numStars="5"
+                            android:layout_gravity="center">
+                        </androidx.appcompat.widget.AppCompatRatingBar>
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -161,7 +175,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:layout_gravity="right">
+                        android:layout_gravity="right"
+                        android:gravity="center">
+                        <androidx.appcompat.widget.AppCompatRatingBar
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:numStars="5"
+                            android:layout_gravity="center">
+                        </androidx.appcompat.widget.AppCompatRatingBar>
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
