@@ -3,4 +3,31 @@
     <string name="TestRestaurant">Restaurante Os Galegos</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Marisquer_os_galegos">Restaurante Marisquería Os Galegos</string>
+    <string name="Direccio_os_galegos">Travessia del Lledoner, 9, Granollers, Barcelona</string>
+    <string name="restaurante_la_piranya">Restaurante La Piranya</string>
+    <string name="Direccio_la_piranya">Francesc Macia, 300, Granollers, Barcelona</string>
+    <string name="can_pipa">Restaurante Can Pipa</string>
+    <string name="direccio_can_pipa">Carrer Aureli Font, 5, Granollers, Barcelona</string>
+    <string name="restaurante_la_tagliatella">Restaurante La Tagliatella</string>
+    <string name="drieccio_la_tagliatela">Carrer de Joan Prim, 42, Granollers, Barcelona</string>
+    <string name="la_mezza_luna">La Mezza Luna</string>
+    <string name="direccio_mezza_luna">Carrer de Foment, 2, Granollers, Barcelona</string>
+    <string name="il_cenacolo">Pizzeria Spaghetteria IL CENACOLO</string>
+    <string name="direccio_il_cenacolo">Josep Umbert 109, Granollers, Barcelona</string>
+    <string name="el_mirallet">El Mirallet</string>
+    <string name="direccio_el_mirallet">Plaça de la Portxada,39, Granollers, Barcelona</string>
+    <string name="la_cookessa_bio_granollers">La Cookessa Bio Granollers</string>
+    <string name="direccio_cookesa_bio">Carrer de Ponent, 25, Granollers, Barcelona</string>
+    <string name="nima_de_granollers">Ànima de Granollers</string>
+    <string name="direccio_anima_granollers">Griona, 4, Granollers, Barcelona</string>
+    <string name="parking_escolapi_blau">Parking Escolapi Blau</string>
+    <string name="plazas_escolapi">80 plazas/ 23 disponibles</string>
+    <string name="direccio_escolapi">C.Francisco de Quevedo, S/n C. Oriente</string>
+    <string name="parking_corona">Parking Corona</string>
+    <string name="pazas_corona">120 plazas/ 35 disponibles</string>
+    <string name="direccion_corona">C.Sant Josep de Calassanç</string>
+    <string name="estacio_atenea">Parking Estació-Atenea</string>
+    <string name="plazas_estacio_atenea">76 plazas/ 8 disponibles</string>
+    <string name="direccio_estacio_atenea">C.Passeig Cristòfol Colom</string>
 </resources>

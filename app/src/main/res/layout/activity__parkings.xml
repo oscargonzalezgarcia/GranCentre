@@ -38,21 +38,21 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Parking Escolapi Blau"
+                        android:text="@string/parking_escolapi_blau"
                         android:textSize="20dp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="80 plazas/ 23 disponibles"
+                        android:text="@string/plazas_escolapi"
                         android:textColor="?android:attr/textColorSecondary"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
-                        android:text="C.Francisco de Quevedo, S/n C. Oriente"
+                        android:text="@string/direccio_escolapi"
                         android:textColor="?android:attr/textColorSecondary"
                         />
 
@@ -90,21 +90,21 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Parking Corona"
+                        android:text="@string/parking_corona"
                         android:textSize="20dp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="120 plazas/ 35 disponibles"
+                        android:text="@string/pazas_corona"
                         android:textColor="?android:attr/textColorSecondary"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
-                        android:text="C.Sant Josep de Calassanç"
+                        android:text="@string/direccion_corona"
                         android:textColor="?android:attr/textColorSecondary"
                         />
 
@@ -142,21 +142,21 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Parking Estació-Atenea"
+                        android:text="@string/estacio_atenea"
                         android:textSize="20dp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="76 plazas/ 8 disponibles"
+                        android:text="@string/plazas_estacio_atenea"
                         android:textColor="?android:attr/textColorSecondary"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
-                        android:text="C.Passeig Cristòfol Colom"
+                        android:text="@string/direccio_estacio_atenea"
                         android:textColor="?android:attr/textColorSecondary"
                         />
 

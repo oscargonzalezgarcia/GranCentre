@@ -35,13 +35,13 @@
                         android:layout_marginTop="15dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Restaurante La Tagliatella"
+                        android:text="@string/restaurante_la_tagliatella"
                         android:textSize="15sp"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Carrer de Joan Prim, 42, Granollers, Barcelona" />
+                        android:text="@string/drieccio_la_tagliatela" />
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -100,13 +100,13 @@
                         android:layout_marginTop="15dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="La Mezza Luna"
+                        android:text="@string/la_mezza_luna"
                         android:textSize="15sp"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Carrer de Foment, 2, Granollers, Barcelona"/>
+                        android:text="@string/direccio_mezza_luna"/>
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -164,13 +164,13 @@
                         android:layout_marginTop="15dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Pizzeria Spaghetteria IL CENACOLO"
+                        android:text="@string/il_cenacolo"
                         android:textSize="15sp"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Josep Umbert 109, Granollers, Barcelona"/>
+                        android:text="@string/direccio_il_cenacolo"/>
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

@@ -35,13 +35,13 @@
                         android:layout_marginTop="15dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Restaurante Marisquería Os Galegos"
+                        android:text="@string/Marisquer_os_galegos"
                         android:textSize="15sp"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Travessia del Lledoner, 9, Granollers, Barcelona "/>
+                        android:text="@string/Direccio_os_galegos"/>
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -101,13 +101,13 @@
                         android:layout_marginTop="15dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Restaurante La Piranya"
+                        android:text="@string/restaurante_la_piranya"
                         android:textSize="15sp"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Francesc Macia, 300, Granollers, Barcelona "/>
+                        android:text="@string/Direccio_la_piranya"/>
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -166,13 +166,13 @@
                         android:layout_marginTop="15dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Restaurante Can Pipa"
+                        android:text="@string/can_pipa"
                         android:textSize="15sp"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Carrer Aureli Font, 5, Granollers, Barcelona"/>
+                        android:text="@string/direccio_can_pipa"/>
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

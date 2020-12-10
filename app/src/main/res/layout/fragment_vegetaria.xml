@@ -38,13 +38,13 @@
                         android:layout_marginTop="15dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="El Mirallet"
+                        android:text="@string/el_mirallet"
                         android:textSize="15sp"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Plaça de la Portxada,39, Granollers, Barcelona"/>
+                        android:text="@string/direccio_el_mirallet"/>
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -103,13 +103,13 @@
                         android:layout_marginTop="15dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="La Cookessa Bio Granollers"
+                        android:text="@string/la_cookessa_bio_granollers"
                         android:textSize="15sp"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Carrer de Ponent, 25, Granollers, Barcelona"/>
+                        android:text="@string/direccio_cookesa_bio"/>
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -167,13 +167,13 @@
                         android:layout_marginTop="15dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Ànima de Granollers"
+                        android:text="@string/nima_de_granollers"
                         android:textSize="15sp"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Griona, 4, Granollers, Barcelona"/>
+                        android:text="@string/direccio_anima_granollers"/>
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
