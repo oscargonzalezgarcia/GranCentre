@@ -48,14 +48,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="AGUDO Z"
+                        android:text="@string/agudo_z"
                         android:textSize="15sp"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="Carrer de Santa Anna, 21, 08401 Granollers, Barcelona"/>
+                        android:text="@string/direccioAgudoZ"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -123,14 +123,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="BARBANY"
+                        android:text="@string/barbany"
                         android:textSize="15sp"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="Carrer Anselm Clavé, 44, 08401 Granollers, Barcelona"/>
+                        android:text="@string/direccioBarbany"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -198,14 +198,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="INSITU SKATE SHOP GALLERY"
+                        android:text="@string/insitu_skate_shop_gallery"
                         android:textSize="15sp"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="Carrer del Lliri, 11, 08401 Granollers, Barcelona"/>
+                        android:text="@string/direccioInSitu"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"

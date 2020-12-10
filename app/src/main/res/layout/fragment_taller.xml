@@ -47,7 +47,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="PORTAGON AUTOS"
+                        android:text="@string/portagon_autos"
                         android:textSize="15sp"
                         android:textStyle="bold" />
 
@@ -55,7 +55,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAlignment="center"
-                        android:text="Carrer Sant Antoni Maria Claret, 15, 08402 Granollers, Barcelona"/>
+                        android:text="@string/direccioPortagon"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -122,7 +122,7 @@
                         android:layout_marginTop="15dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="VALLÉS MOTOR II"
+                        android:text="@string/vall_s_motor_ii"
                         android:layout_gravity="center"
                         android:textSize="15sp"
                         android:textStyle="bold" />
@@ -130,7 +130,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAlignment="center"
-                        android:text="Carretera Nacional 152a, Km 26, 5, 08401 Granollers, Barcelona"/>
+                        android:text="@string/direccioVallesMotor"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -199,14 +199,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="GRUP D'AUTOMOCIÓ I SERVEIS PRUNA"
+                        android:text="@string/grup_d_automoci_i_serveis_pruna"
                         android:textSize="15sp"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAlignment="center"
-                        android:text="Km 19,060, Carretera C-17, 08403 Granollers, Barcelona"/>
+                        android:text="@string/direccioGrupsAuto"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
