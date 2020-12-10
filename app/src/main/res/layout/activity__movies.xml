@@ -46,15 +46,14 @@
                         android:layout_marginTop="15dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Come Away"
+                        android:text="@string/come_away"
                         android:textSize="15sp"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="La pel·lícula mostra als personatges principals
-                        d'Alice 's Adventures in Wonderland i Peter Pan com a germans que intenten ajudar els seus pares a superar la mort del seu fill gran"/>
+                        android:text="@string/descripcioComeAway"/>
 
                 </LinearLayout>
             </LinearLayout>
@@ -94,13 +93,13 @@
                         android:layout_marginTop="15dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="All my life"
+                        android:text="@string/all_my_life"
                         android:textSize="15sp"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Basat en la història real de Solomon Chau i Jennifer Carter, una jove parella que es precipita a ajuntar el casament després que a un d’ells se li diagnostiqui un càncer de fetge."/>
+                        android:text="@string/descripcioAllMyLife"/>
 
                 </LinearLayout>
             </LinearLayout>
@@ -141,13 +140,13 @@
                         android:layout_marginTop="15dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="El verano que vivimos"
+                        android:text="@string/el_verano_que_vivimos"
                         android:textSize="15sp"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="És una pel·lícula espanyola dramàtica de 2020 dirigida per Carlos Seus i protagonitzada per Blanca Suárez i Javier Rey."/>
+                        android:text="@string/descripcioElVeranoQueVivimos"/>
 
                 </LinearLayout>
             </LinearLayout>

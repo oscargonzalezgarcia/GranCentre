@@ -3,4 +3,28 @@
     <string name="TestRestaurant">Restaurante Os Galegos</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bellesa_essencial">BELLESA ESSENCIAL</string>
+    <string name="direccioBellesa">23-25, Carrer de Corró, 08401 Granollers, Barcelona</string>
+    <string name="carme_estilistes">CARME ESTILISTES</string>
+    <string name="direccioCarme">Carrer de Josep Torras I Bages, 35, 08401 Granollers, Barcelona</string>
+    <string name="carol_bruguera">CAROL BRUGUERA</string>
+    <string name="direccioCarol">Plaça Lluís Perpinyà, 4, 08400 Granollers, Barcelona</string>
+    <string name="come_away">Come Away</string>
+    <string name="descripcioComeAway">La pel·lícula mostra als personatges principals d\'Alice \'s Adventures in Wonderland i Peter Pan com a germans que intenten ajudar els seus pares a superar la mort del seu fill gran</string>
+    <string name="all_my_life">All my life</string>
+    <string name="descripcioAllMyLife">Basat en la història real de Solomon Chau i Jennifer Carter, una jove parella que es precipita a ajuntar el casament després que a un d’ells se li diagnostiqui un càncer de fetge.</string>
+    <string name="el_verano_que_vivimos">El verano que vivimos</string>
+    <string name="descripcioElVeranoQueVivimos">És una pel·lícula espanyola dramàtica de 2020 dirigida per Carlos Seus i protagonitzada per Blanca Suárez i Javier Rey.</string>
+    <string name="agudo_z">AGUDO Z</string>
+    <string name="direccioAgudoZ">Carrer de Santa Anna, 21, 08401 Granollers, Barcelona</string>
+    <string name="barbany">BARBANY</string>
+    <string name="direccioBarbany">Carrer Anselm Clavé, 44, 08401 Granollers, Barcelona</string>
+    <string name="insitu_skate_shop_gallery">INSITU SKATE SHOP GALLERY</string>
+    <string name="direccioInSitu">Carrer del Lliri, 11, 08401 Granollers, Barcelona</string>
+    <string name="portagon_autos">PORTAGON AUTOS</string>
+    <string name="direccioPortagon">Carrer Sant Antoni Maria Claret, 15, 08402 Granollers, Barcelona</string>
+    <string name="vall_s_motor_ii">VALLÉS MOTOR II</string>
+    <string name="direccioVallesMotor">Carretera Nacional 152a, Km 26, 5, 08401 Granollers, Barcelona</string>
+    <string name="grup_d_automoci_i_serveis_pruna">GRUP D\'AUTOMOCIÓ I SERVEIS PRUNA</string>
+    <string name="direccioGrupsAuto">Km 19,060, Carretera C-17, 08403 Granollers, Barcelona</string>
 </resources>
